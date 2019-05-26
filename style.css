@@ -1,0 +1,54 @@
+/* Stylesheet */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+
+
+
+a.navbar-item {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+
+a.navbar-item:hover{
+    color:black;
+}
+
+a.button.is-primary.registerbtn {
+    background:#00e676;
+    color:white;
+}
+
+h1#covertext {
+    font-family: 'Quicksand', sans-serif;
+    font-size:33px;
+    margin:Auto;
+    margin-top:90px;
+    font-weight: bold;
+    color:black;
+
+    
+}
+
+button.button.is-primary.downloadbtn{
+    width:200px;
+    height:50px;
+    color:white;
+    background: #02AAB0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #00CDAC, #02AAB0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #00CDAC, #02AAB0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div p a{
+    text-decoration: none;
+    color:black;
+    font-family:'Quicksand', sans-serif;
+    font-weight:bold;
+}
+
+.navbar {
+    margin-top:5px;
+}
